@@ -1,0 +1,15 @@
+/* Add application styles & imports to this file! */
+body{
+  margin:unset;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background: #030303;
+  overflow-x: hidden;
+}
+
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}

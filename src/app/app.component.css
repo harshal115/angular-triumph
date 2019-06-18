@@ -1,0 +1,62 @@
+.wrapper{
+height: 100%;
+width: 100%;
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  /* background: red; */
+  padding: 20px;
+}
+
+.tabs{
+  display: flex;  
+}
+.tab{
+  padding: 0 10px;
+  text-transform: uppercase;
+  color:#696968;
+  transition: color 1s;
+}
+
+.tab:hover{
+  color:#DFDFDF;
+  cursor: pointer;
+}
+.icon{
+  filter:invert(1);
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.bottombar{
+  height: 30%;
+  /* background: red; */
+  background-image: linear-gradient(to bottom, #131212, #030303);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bike{
+  /* height: 200%; */
+  width: 60vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-75%);    
+}
+
+.bike-wrapper{
+  width: 200%;
+  background: red;
+  height: inherit;
+}
+
+@media (max-width:768px){
+  .tabs{
+    display: none;
+  }
+}
